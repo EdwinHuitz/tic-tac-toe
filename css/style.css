@@ -1,0 +1,103 @@
+body
+{
+    text-align: center;
+    background-color: silver;
+    /*padding:0;*/
+}
+h2
+{
+    padding-top: 10px;
+    font-size:25pt;
+    text-shadow: 2px 2px 2px slategrey;
+}
+.h2H
+{
+    padding-top:10px;
+    visibility:hidden;
+    font-size:25pt;
+}
+.h2V
+{
+    padding-top:10px;
+    visibility:visible;
+    font-size:25pt;
+}
+div
+{
+    width:60px;
+    height:65px;
+    font-size:25pt;
+    text-align:center;
+    margin:auto;
+    padding: 0;
+    display:inline-block;
+    border:5px solid black;
+    border-spacing: 0em;
+    text-shadow: 3px 3px 2px slategrey;
+}
+.hiddenWin
+{
+    display:none;
+}
+.result
+{
+    position: absolute;
+    text-align: center;
+    width: max-content;
+    color:rgb(123, 233, 169);
+    z-index: 3;
+    top:20%;
+    background-color:silver;
+    padding-bottom: 120px;
+}
+.resultText
+{
+    font-size:60pt;
+    text-shadow: 4px 4px 2px slategrey;
+}
+.gameboard
+{
+    width:100%;
+    height:100%;
+    border:none;
+}
+.gridBlock
+{
+    width:100%;
+    float:left;
+    left:40%;
+    margin:auto;
+    visibility: visible;
+}
+.gridPartL
+{
+    border-top:none;
+    border-left:none;
+}
+.gridPartR
+{
+    border-top:none;
+    border-right:none;
+}
+.gridPartC
+{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+.gridPartBL
+{
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+}
+.gridPartBC
+{
+    border:none;
+}
+.gridPartBR
+{
+    border-top:none;
+    border-bottom:none;
+    border-right:none;
+}
